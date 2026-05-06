@@ -8,86 +8,143 @@
 </head>
 <body>
 
-  <header>
-    <div class="logo">NIC Atlantic Global Services</div>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-main">NIC ATLANTIC</span>
+      <span class="brand-sub">GLOBAL SERVICES</span>
+    </div>
+
     <nav>
       <a href="#home">Home</a>
-      <a href="#about">About</a>
+      <a href="#about">About Us</a>
       <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
+      <a href="#payments">Payments</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <section id="home" class="hero">
-    <div class="hero-text">
-      <h1>Professional Business, HSE, Procurement & Real Estate Support</h1>
+    <div class="hero-content">
+      <p class="tagline">Safety • Reliability • Excellence</p>
+
+      <h1>Professional Solutions for Safety, Procurement and Real Estate</h1>
+
       <p>
-        NIC Atlantic Global Services provides reliable business support services
-        with a focus on safety, professionalism, quality, and client satisfaction.
+        NIC Atlantic Global Services provides reliable HSE consulting, procurement,
+        real estate, recruitment and business support services for individuals,
+        companies and institutions.
       </p>
-      <a href="#contact" class="btn">Contact Us</a>
+
+      <div class="hero-buttons">
+        <a href="#services" class="btn gold">Explore Services</a>
+        <a href="https://wa.me/233549174275" class="btn outline">Chat on WhatsApp</a>
+      </div>
     </div>
   </section>
 
-  <section id="about">
+  <section id="about" class="section">
     <h2>About Us</h2>
+
     <p>
-      NIC Atlantic Global Services is a Ghanaian business support company focused
-      on helping clients achieve safe, efficient, and well-managed operations.
-      We support businesses through HSE services, procurement, real estate support,
-      documentation, and general business solutions.
+      NIC Atlantic Global Services is a professional business support company located
+      at Baatsona, Spintex. We help clients improve safety, source quality materials,
+      support real estate needs, and manage business requirements with professionalism,
+      integrity and value.
     </p>
   </section>
 
-  <section id="services">
+  <section id="services" class="section dark">
     <h2>Our Services</h2>
 
-    <div class="cards">
-      <div class="card">
-        <h3>HSE Services</h3>
-        <p>Safety audits, inspections, trainings, risk assessments, ISO 45001 and ISO 14001 management system support.</p>
+    <p class="section-intro">
+      Click any service below to view detailed information.
+    </p>
+
+    <div class="service-grid">
+      <div class="service-card fly-card" onclick="openService('hse')">
+        <h3>HSE Consulting</h3>
+        <p>Audits, inspections, risk assessments, trainings and HSE system support.</p>
       </div>
 
-      <div class="card">
-        <h3>Procurement</h3>
-        <p>Procurement of HSE equipment, PPEs, vehicles, office items, and operational business materials.</p>
+      <div class="service-card fly-card" onclick="openService('procurement')">
+        <h3>Procurement & Supply</h3>
+        <p>HSE equipment, PPE, vehicles, industrial materials and office supplies.</p>
       </div>
 
-      <div class="card">
-        <h3>Real Estate Support</h3>
-        <p>Property sourcing, real estate facilitation, client support, and related business advisory services.</p>
+      <div class="service-card fly-card" onclick="openService('realestate')">
+        <h3>Real Estate Services</h3>
+        <p>Property sourcing, land acquisition support and investment advisory.</p>
       </div>
 
-      <div class="card">
-        <h3>Business Support</h3>
-        <p>Administrative support, documentation, project coordination, vendor management, and operational assistance.</p>
+      <div class="service-card fly-card" onclick="openService('recruitment')">
+        <h3>HSE Recruitment</h3>
+        <p>Support for sourcing competent HSE officers, supervisors and advisors.</p>
+      </div>
+    </div>
+
+    <div id="service-details" class="service-details">
+      <h3>Select a service to view details</h3>
+      <p>
+        Click on HSE Consulting, Procurement & Supply, Real Estate Services or HSE Recruitment.
+      </p>
+    </div>
+  </section>
+
+  <section id="payments" class="section">
+    <h2>Payment Options</h2>
+
+    <p>
+      We accept multiple payment options for client convenience. Please confirm your
+      invoice or quotation before making payment.
+    </p>
+
+    <div class="payment-grid">
+      <div class="payment-card">
+        <h3>Mobile Money</h3>
+        <p><strong>MoMo Number:</strong> 0549174275</p>
+        <p>Use your invoice number as reference.</p>
+      </div>
+
+      <div class="payment-card">
+        <h3>Bank Transfer</h3>
+        <p>Bank details will be provided on your official invoice.</p>
+        <p>Contact us before transfer.</p>
+      </div>
+
+      <div class="payment-card">
+        <h3>Paystack</h3>
+        <p>Online card and mobile money payment.</p>
+        <a href="https://wa.me/233549174275" class="small-btn">Request Paystack Link</a>
+      </div>
+
+      <div class="payment-card">
+        <h3>Flutterwave</h3>
+        <p>Secure online payment option.</p>
+        <a href="https://wa.me/233549174275" class="small-btn">Request Flutterwave Link</a>
       </div>
     </div>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>
-      We support individuals, companies, and institutions with practical solutions
-      that improve safety, efficiency, compliance, and business performance.
-    </p>
-  </section>
-
-  <section id="contact">
+  <section id="contact" class="section contact-section">
     <h2>Contact Us</h2>
-    <p>For enquiries, partnerships, or business support, contact NIC Atlantic Global Services.</p>
+
+    <p>For enquiries, quotations, partnerships or service requests, contact us.</p>
 
     <div class="contact-box">
-      <p><strong>Email:</strong> info@nicatlanticglobal.com</p>
-      <p><strong>Phone:</strong> +233 XX XXX XXXX</p>
-      <p><strong>Location:</strong> Accra, Ghana</p>
+      <p><strong>Phone:</strong> 0209999957</p>
+      <p><strong>WhatsApp:</strong> 0549174275</p>
+      <p><strong>Email:</strong> info@nicatlancticglobalservices.com.gh</p>
+      <p><strong>Location:</strong> Baatsona, Spintex</p>
+
+      <a href="https://wa.me/233549174275" class="btn gold">Send WhatsApp Message</a>
     </div>
   </section>
 
   <footer>
     <p>© 2026 NIC Atlantic Global Services. All rights reserved.</p>
   </footer>
+
+  <a href="https://wa.me/233549174275" class="whatsapp-float">WhatsApp</a>
 
   <script src="script.js"></script>
 </body>
