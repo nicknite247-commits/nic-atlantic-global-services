@@ -151,3 +151,30 @@ footer {
     font-size: 17px;
   }
 }
+/* NIC ATLANTIC LOGO SETTINGS */
+.brand img {
+  height: 65px;
+  width: auto;
+  display: block;
+}
+
+.site-header {
+  background: #062b5f;
+  color: white;
+  padding: 12px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 4px solid #d4af37;
+}
+
+@media (max-width: 768px) {
+  .brand img {
+    height: 45px;
+    margin: 0 auto;
+  }
+}
